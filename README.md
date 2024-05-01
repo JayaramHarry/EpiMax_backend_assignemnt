@@ -23,7 +23,7 @@ The project is organized into the following components:
 1. Clone the repository:
 
 ```
-git clone <repository-url>
+git clone https://github.com/JayaramHarry/EpiMax_backend_assignemnt.git
 ```
 
 2. Install dependencies:
@@ -38,7 +38,8 @@ npm install
 1. Start the server:
 
 ```
-npm start
+node index.js
+
 ```
 
 2. Use tools like Postman or cURL to interact with the API endpoints.
