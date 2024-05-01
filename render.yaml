@@ -1,0 +1,10 @@
+services:
+  - name: my-nodejs-app
+    type: web
+    buildCommand: npm install
+    startCommand: node index.js
+    env:
+      - key: NODE_ENV
+        value: production
+      # Add other environment variables as needed
+    healthCheckPath: /
